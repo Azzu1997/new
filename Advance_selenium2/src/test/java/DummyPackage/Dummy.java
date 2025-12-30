@@ -1,12 +1,16 @@
 package DummyPackage;
 
+import org.testng.annotations.Test;
+
 public class Dummy 
 {
-public static void main(String[] args) {
+@Test
+public  void Method1()
+{
 	System.out.println("----sample----");
 	System.out.println("----azmath edited code----");
-	System.out.println("----shwetha edited----");
-	System.out.println("check it once");
+	System.out.println("----Hi----");
+	System.out.println("Hello");
 }
 }
 
