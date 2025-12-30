@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_PO(failed)">
+    <classes>
+      <class name="Product.CreateProduct">
+        <methods>
+          <include name="disconnect"/>
+          <include name="CreateProduct"/>
+          <include name="launchBrowser"/>
+          <include name="loginToApp"/>
+          <include name="ConnectToDb"/>
+          <include name="logoutfromAccount"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Product.CreateProduct -->
+    </classes>
+  </test> <!-- Test_PO(failed) -->
+</suite> <!-- Failed suite [Suite] -->

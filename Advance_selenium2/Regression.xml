@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite" thread-count="1">
+<test thread-count="5" parallel="tests" name="test">
+<group>
+<run>
+ <include> name="Regression"</include>
+</run>
+</group>
+
+  
+    <classes>
+      <class name="Testing_Practice.DemoTest2"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

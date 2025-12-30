@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+  <test thread-count="5" parallel="tests" name="Test_CO">
+   <packages>
+      <package name="Contacts"/>
+      <package name="Opportunities"/>
+      </packages>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" parallel="tests" name="Test_TV">
+      <packages>
+      <package name="TroubleTicket"/>
+      <package name="Vendor"/>
+     </packages>
+  </test>
+             
+ <test thread-count="5" parallel="tests" name="Test_PO">
+   <packages>
+      <package name="Product"/>
+      <package name="Organization"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
